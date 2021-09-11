@@ -6,9 +6,19 @@ Two players take it in turns, entering coordinates to place their `X` or `O`.
 
 ## Input
 
-Each player must enter 2 numbers, seperated by a space, between 1 and 3 representing the coordinate to play on the grid, with the top left cell being 1,1 and the bottom right being 3,3.
+When prompted, each player must enter 2 numbers, seperated by a space, between 1 and 3 representing the coordinate to play on the grid. 
+
+Like so:
+
+```
+Enter the coordinates: 1 1
+```
+
+> Note: A player cannot move where a previous player has already played.
 
 ## Grid
+
+The grid is a 3 by 3 grid with each cell represented by the coordinate shown below.
 
 ```
 -----------------------
