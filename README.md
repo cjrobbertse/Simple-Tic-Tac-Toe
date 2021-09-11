@@ -76,3 +76,7 @@ Enter the coordinates: 3 2
 ---------
 X wins
 ```
+
+## Customization
+
+The game can be customised by changing the spaces on the grid from an underscore '`_`' to any other custom value like a space '` `' for example.
